@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/POS-Mint/static/css/main.3f297e1e.css",
+    "main.js": "/POS-Mint/static/js/main.dd7862df.js",
+    "static/js/787.33dfb140.chunk.js": "/POS-Mint/static/js/787.33dfb140.chunk.js",
+    "static/media/Coin_Heads.png": "/POS-Mint/static/media/Coin_Heads.944a26982e7bf81b705b.png",
+    "index.html": "/POS-Mint/index.html",
+    "main.3f297e1e.css.map": "/POS-Mint/static/css/main.3f297e1e.css.map",
+    "main.dd7862df.js.map": "/POS-Mint/static/js/main.dd7862df.js.map",
+    "787.33dfb140.chunk.js.map": "/POS-Mint/static/js/787.33dfb140.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f297e1e.css",
+    "static/js/main.dd7862df.js"
+  ]
+}
