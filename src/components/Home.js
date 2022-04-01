@@ -246,49 +246,56 @@ return(
         <div className="container mx-auto w-full ">
             <h1 className="text-4xl text-white py-8 text-center">Roadmap</h1>
             {/* here make it centered and styled */}
-  <div className="relative wrap overflow-hidden p-10">
+
+{/* MOBILE ROADMAP HERE: */}
+{/* <div className="relative wrap sm:flex overflow-hidden p-10 md:hidden"></div>
+<div className="border-2-2 absolute inset-x-2/4 border-opacity-20 border-white h-full mb-4 border"></div> */}
+
+
+{/* HIDDEN FOR NON-MOBILE */}
+  <div className="relative wrap md:block overflow-hidden p-10">
     <div className="border-2-2 absolute inset-x-2/4 border-opacity-20 border-white h-full mb-4 border"></div>
     {/* Why does this border run to the absolute bottom?? */}
     {/* above = l;eft 50% */}
     <div className="mb-8 flex justify-between items-center w-full right-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
+      <div className="md:visible mx-3 z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto md:visible mx-auto w-8 h-8 text-center font-semibold text-lg text-white">1</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div className="order-1 md:w-5/12 sm:w-screen bg-gray-400 rounded-lg shadow-xl px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-800 text-xl">Q2 2022: Initial NFT Mint</h3>
         <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">POS NFT's minted to fund house wallet, double or nothing coin flips are turned on for live play. </p>
       </div>
     </div>
-
+    {/* <!-----/> */}
     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
+      <div className="md:visible mx-3 z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <h1 className="md:visible mx-auto w-8 h-8 text-center text-white font-semibold text-lg">2</h1>
       </div>
-      <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div className="order-1 bg-red-400 md:w-5/12 sm:w-screen rounded-lg shadow-xl px-6 py-4">
         <h3 className="mb-3 font-bold text-white text-xl">Q3 2022 Communities + ETH bridging</h3>
         <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Outreach focus on building community partnerships, offering turnkey gambling solutions for ETH + MATIC communities. To best facilitate this, we will be providing an ETH native polygon briding solution.</p>
       </div>
     </div>
-    
+ {/* <!-----/> */}
     <div className="mb-8 flex justify-between items-center w-full right-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
+      <div className="md:visible mx-3 z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto md:visible mx-auto w-8 h-8 text-center font-semibold text-lg text-white">3</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div className="order-1 bg-gray-400 rounded-lg shadow-xl md:w-5/12 sm:w-screen px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-800 text-xl">Q4 2022: NFT Staking</h3>
         <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">For those of you who want to generate even more yeild on your very own POS, we'll be going live with a first of its kind NFT staking + yield compounding service. Initially this service will be exclusively available for POS holders, no external NFT's will be accepted.</p>
       </div>
     </div>
-
+{/* <!-----/> */}
     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
+      <div className="md:visible mx-3 z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto md:visible mx-auto w-8 h-8 text-center font-semibold text-lg text-white">4</h1>
       </div>
-      <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div className="order-1 bg-red-400 rounded-lg shadow-xl md:w-5/12 sm:w-screen px-6 py-4">
         <h3 className="mb-3 font-bold text-white text-xl">Q1 2023 Native Token Launch</h3>
         <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Further compound the yield generated by POS NFT's by staking them, then electing to have that yield paid out at a premium in the newly launched POS coin. This token will be redeemable everywhere within the POS ecosystem.</p>
       </div>
