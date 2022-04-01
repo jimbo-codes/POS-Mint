@@ -146,10 +146,10 @@ return(
                   {/* Typewriter effect here ? */}
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                  <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
+                  <div className="space-y-4 flex justify-center sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
                     <button onClick={mintClick} disabled={true}
 
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
+                      className="px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
                       You can't mint yet.
                       {/* on mouseover, have an effect to show socials. */}
                     </button>
@@ -299,7 +299,7 @@ return(
 
 {/* BELOW PROLLY CUT - its  */}
 <section className="relative bg-gray-900" id='about'>
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="relative pt-12 pb-20 sm:pt-20 sm:pb-20 xl:col-start-1 xl:pb-20">
               <h2 className="text-sm font-semibold tracking-wide uppercase">
                 <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">
