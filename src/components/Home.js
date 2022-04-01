@@ -202,39 +202,6 @@ return(
             </a>
         </div>
         </div>
-
-            {/* <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-2">
-            
-              <div className="col-span-1 align-text-bottom flex justify-center md:col-span-2 lg:col-span-1">
-              <a
-                    href="https://twitter.com/POSCoinFlip"
-                    id='socials'
-                    className="flex float-left items-center py-2 px-2 rounded-md text-sm font-medium text-gray-500 hover:bg-gray-50"
-                    >
-                        <span className="sr-only">Check out our twitter!</span>
-                        <svg viewBox="0 0 24 24" className="w-8 fill-blue-400 h-8" aria-hidden="true"> 
-          <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-        </svg><p className="inline-block text-blue-400 align-baseline">Twitter</p>
-                    </a> */}
-                {/* <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" /> */}
-              {/* </div>
-            
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                
-                <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-              
-              </div> */}
-
-              {/* <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              
-                <img
-                  className="h-12"
-                  src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                  alt="StaticKit"
-                />
-              
-              </div> */}
-            {/* </div> */}
           </section>
         </div>
 
@@ -254,7 +221,7 @@ return(
 
 {/* HIDDEN FOR NON-MOBILE */}
   <div className="relative wrap md:block overflow-hidden p-10">
-    <div className="border-2-2 absolute inset-x-2/4 border-opacity-20 border-white h-full mb-4 border"></div>
+    <div className="border-2-2 absolute inset-x-2/4 md:border-opacity-20 border-opacity-0 border-white h-full mb-4 border"></div>
     {/* Why does this border run to the absolute bottom?? */}
     {/* above = l;eft 50% */}
     <div className="mb-8 flex justify-between items-center w-full right-timeline">
