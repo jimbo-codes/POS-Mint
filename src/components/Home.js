@@ -293,7 +293,7 @@ return(
     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div className="order-1 w-5/12"></div>
       <div className="md:visible mx-3 z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto md:visible mx-auto w-8 h-8 text-center font-semibold text-lg text-white">4</h1>
+        <h1 className="md:visible mx-auto w-8 h-8 text-center text-white font-semibold text-lg">4</h1>
       </div>
       <div className="order-1 bg-red-400 rounded-lg shadow-xl md:w-5/12 sm:w-screen px-6 py-4">
         <h3 className="mb-3 font-bold text-white text-xl">Q1 2023 Native Token Launch</h3>
@@ -371,8 +371,8 @@ return(
             {/* </div> */}
 
             {/* Configure the social links so they work. */}
-          <div className="border-t border-gray-200 pt-4 md:flex md:items-center md:justify-between lg:mt-4">
-            <div className="flex space-x-6 md:order-2">
+          <div className="border-t border-gray-200 pt-4 flex items-center justify-between lg:mt-4">
+            <div className="flex space-x-6 order-2">
               {footerNavigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                   <span className="sr-only">{item.name}</span>
@@ -380,7 +380,7 @@ return(
                 </a>
               ))}
             </div>
-            <p className="mt-0 mb-4 text-base text-gray-400 md:mt-0 md:order-1">
+            <p className="mt-0 mb-4 text-base text-gray-400 mt-0 order-1">
               &copy; 2022 POS DAO LLC. All rights reserved.
             </p>
           </div>
