@@ -1,15 +1,12 @@
 import React from "react";
 import coinF from '../images/Coin_Heads.png';
 import { Disclosure } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   // nav bar states to display what is active. I feel like tailwind has a built in way to do this, but "active:xyz" wasn't working.
   
 function handleClickRedir(){
     window.location.assign('https://pos-coin-flip.herokuapp.com/');
-    // Send to beta page.
 }
 function handleFlip(){
     console.log('flip coin to tails')
@@ -30,8 +27,6 @@ function fixMenu(){
     nav.classList.toggle('flex');
     nav.classList.toggle('hidden');
 }
-// let nav = document.getElementById('site-menu');
-// let header
     return (
 
    //     {/* incorporate your click on coin to flip the thing. Then change rolling coin too. */}
@@ -39,11 +34,7 @@ function fixMenu(){
 
 
 
-       /* {({ open }) => (
-         <>  
-  
   // THIS WHOLE MENU IS MOBILE ONLY.
-     // {/* <MenuIcon className="block h-6 w-6" aria-hidden="true"></MenuIcon> */
      <>
   <header id="top" className="w-full md:hidden flex flex-col fixed fixed sm:relative bg-white sticky top-0 z-50">
   <Disclosure as="nav" className="bg-white px-2 rounded sm:px-4 py-1.5">
@@ -65,7 +56,7 @@ function fixMenu(){
           <a href="#socials" className="text-dark text-center hover:text-blue-700 font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" onClick={fixMenu}>Socials</a>
           <a href="#roadmap" className="text-dark text-center hover:text-blue-700 font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" onClick={fixMenu}>Roadmap</a>
           <a href="#about" className="text-dark text-center hover:text-blue-700 font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" onClick={fixMenu}>About</a>
-        <a onClick={handleClickRedir} className="right-px relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">launch BETA app</a>
+        <button onClick={handleClickRedir} className="right-px relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">launch BETA app</button>
     </div>
     </Disclosure>
 </header>
